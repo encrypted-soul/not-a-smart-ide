@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+code-runner-frontend/node_modules
+code-runner-frontend/.pnp
+code-runner-frontend/.pnp.js
+
+# testing
+code-runner-frontend/coverage
+
+# production
+code-runner-frontend/build
+
+# misc
+code-runner-frontend/.DS_Store
+code-runner-frontend/.env.local
+code-runner-frontend/.env.development.local
+code-runner-frontend/.env.test.local
+code-runner-frontend/.env.production.local
+
+code-runner-frontend/npm-debug.log*
+code-runner-frontend/yarn-debug.log*
+code-runner-frontend/yarn-error.log*
